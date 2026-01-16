@@ -1,12 +1,3 @@
-# GCS240127PhanMinhHuy
-
-Hello
-
-Hola
-
-Konichiwa
-
-Bonjour
-
-
-
+if messi is better than ronaldo;
+else ronaldo will lose
+print("ronaldo noob");
