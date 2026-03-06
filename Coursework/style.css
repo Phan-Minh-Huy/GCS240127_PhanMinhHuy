@@ -1,0 +1,228 @@
+/* RESET */
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+/* BODY */
+
+body{
+font-family: "Segoe UI", Arial, sans-serif;
+background:#0f172a;
+color:#e5e7eb;
+line-height:1.6;
+}
+
+/* CONTAINER */
+
+.container{
+width:90%;
+max-width:1100px;
+margin:auto;
+padding:20px;
+}
+
+/* NAVBAR */
+
+header{
+background:linear-gradient(135deg,#6366f1,#22c55e);
+padding:20px;
+box-shadow:0 4px 15px rgba(0,0,0,0.3);
+}
+
+header h1{
+color:white;
+font-size:28px;
+}
+
+nav{
+margin-top:10px;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-right:20px;
+font-weight:500;
+transition:0.3s;
+}
+
+nav a:hover{
+opacity:0.7;
+}
+
+/* CARD REVIEW */
+
+blockquote{
+background:#1e293b;
+padding:20px;
+margin:20px 0;
+border-radius:12px;
+box-shadow:0 8px 20px rgba(0,0,0,0.3);
+transition:0.3s;
+}
+
+blockquote:hover{
+transform:translateY(-5px);
+}
+
+/* REVIEW TEXT */
+
+blockquote p{
+font-size:18px;
+margin-bottom:10px;
+}
+
+/* INFO */
+
+small{
+color:#94a3b8;
+}
+
+/* BUTTONS */
+
+button,
+input[type="submit"]{
+
+background:linear-gradient(135deg,#6366f1,#22c55e);
+
+border:none;
+padding:8px 14px;
+
+color:white;
+
+border-radius:8px;
+
+cursor:pointer;
+
+font-size:14px;
+
+transition:0.3s;
+
+}
+
+button:hover,
+input[type="submit"]:hover{
+
+opacity:0.8;
+
+}
+
+/* EDIT LINK */
+
+a{
+
+color:#60a5fa;
+text-decoration:none;
+
+}
+
+a:hover{
+
+text-decoration:underline;
+
+}
+
+/* FORMS */
+
+form{
+
+margin-top:15px;
+
+}
+
+textarea,
+select{
+
+width:100%;
+
+padding:10px;
+
+margin-top:8px;
+
+margin-bottom:15px;
+
+border-radius:8px;
+
+border:none;
+
+background:#334155;
+
+color:white;
+
+}
+
+textarea:focus,
+select:focus{
+
+outline:2px solid #6366f1;
+
+}
+
+/* INPUT FILE */
+
+input[type="file"]{
+
+margin-top:10px;
+
+}
+
+/* TITLE */
+
+h2{
+
+margin-bottom:20px;
+
+}
+
+/* HOME */
+
+ul{
+
+margin-top:15px;
+
+}
+
+ul li{
+
+margin-bottom:10px;
+
+}
+
+/* FOOTER */
+
+footer{
+
+margin-top:40px;
+
+padding:20px;
+
+text-align:center;
+
+color:#94a3b8;
+
+border-top:1px solid #334155;
+
+}
+
+/* RESPONSIVE */
+
+@media (max-width:768px){
+
+nav a{
+
+display:block;
+
+margin:10px 0;
+
+}
+
+blockquote{
+
+padding:15px;
+
+}
+
+}
